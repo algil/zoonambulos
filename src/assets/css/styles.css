@@ -1,7 +1,5 @@
 body {
   background: url('../images/bg.png') black no-repeat center center fixed;
-  /* background: url('../images/bg-original.png') black no-repeat center center */
-  /* fixed; */
   background-size: cover;
   color: #fefefe;
   height: 100vh;
@@ -42,19 +40,16 @@ h2 {
 
 footer {
   margin: 0 auto;
-  /* display: flex;
-  flex-direction: column;
-  align-items: center; */
 }
 
 .social {
   display: flex;
-  width: 350px;
   justify-content: space-between;
 }
 
 .social img {
   width: 64px;
+  margin: 0 1em;
 }
 
 .lights {
@@ -75,17 +70,13 @@ footer {
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 768px) {
   .layout {
     justify-content: space-between;
   }
 
   .logo {
     margin-top: 2em;
-  }
-
-  .logo img {
-    width: 75%;
   }
 
   footer {
