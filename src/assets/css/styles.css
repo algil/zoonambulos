@@ -70,13 +70,17 @@ footer {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   .layout {
     justify-content: space-between;
   }
 
   .logo {
-    margin-top: 2em;
+    margin: 2em 1em;
+  }
+
+  .logo img {
+    width: 100%;
   }
 
   footer {
