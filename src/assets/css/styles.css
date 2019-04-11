@@ -1,5 +1,7 @@
 body {
   background: url('../images/bg.png') black no-repeat center center fixed;
+  /* background: url('../images/bg-original.png') black no-repeat center center */
+  /* fixed; */
   background-size: cover;
   color: #fefefe;
   height: 100vh;
@@ -70,5 +72,27 @@ footer {
   to {
     position: absolute;
     transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+@media (max-width: 700px) {
+  .layout {
+    justify-content: space-between;
+  }
+
+  .logo {
+    margin-top: 2em;
+  }
+
+  .logo img {
+    width: 75%;
+  }
+
+  footer {
+    margin-bottom: 2em;
+  }
+
+  .social img {
+    width: 48px;
   }
 }
