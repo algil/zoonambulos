@@ -6,5 +6,8 @@
 
 module.exports = {
   siteName: 'Zoonámbulos',
+  siteDescription: 'Sitio web oficial',
+  siteUrl: 'zoonambulos.com',
+  titleTemplate: '%s',
   plugins: []
 };
