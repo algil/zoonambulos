@@ -1,15 +1,17 @@
 <template>
   <Layout>
-    <h1 class="logo">
-      <img src="@/assets/images/logo.png" alt="Zoonámbulos">
-    </h1>
+    <header>
+      <h1 class="logo">
+        <img src="@/assets/images/logo.png" alt="Zoonámbulos">
+      </h1>
+      <h2>La edad de la conciencia</h2>
+    </header>
     <div class="illustration">
       <img class="toroid" src="@/assets/images/toroid.svg" alt="Zoonámbulos toroide">
       <img class="lights" src="@/assets/images/lights.svg" alt="Zoonámbulos luces">
       <img class="eye" src="@/assets/images/eye.svg" alt="Zoonámbulos ojo">
     </div>
     <footer>
-      <h2>Síguenos</h2>
       <div class="social">
         <a href="https://www.instagram.com/zoonambulos/" target="_blank">
           <img src="@/assets/images/instagram.svg" alt="Visita el Instagram de Zoonámbulos">

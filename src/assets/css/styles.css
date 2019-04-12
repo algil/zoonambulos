@@ -1,4 +1,5 @@
 body {
+  font-family: 'Lato', sans-serif;
   background: url('../images/bg.png') black no-repeat center center fixed;
   background-size: cover;
   color: #fefefe;
@@ -9,6 +10,9 @@ body {
 
 h2 {
   text-transform: uppercase;
+  font-weight: lighter;
+  font-size: 1.1em;
+  letter-spacing: 0.2em;
 }
 
 .layout {
@@ -30,6 +34,7 @@ h2 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  z-index: -1;
 }
 
 .illustration .eye {
@@ -39,7 +44,7 @@ h2 {
 }
 
 footer {
-  margin: 0 auto;
+  margin: 2em auto 0;
 }
 
 .social {
@@ -48,7 +53,7 @@ footer {
 }
 
 .social img {
-  width: 64px;
+  width: 48px;
   margin: 0 1em;
 }
 
@@ -75,7 +80,7 @@ footer {
     justify-content: space-between;
   }
 
-  .logo {
+  header {
     margin: 1em;
   }
 

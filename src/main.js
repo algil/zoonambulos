@@ -14,4 +14,9 @@ export default function(Vue, { router, head, isClient }) {
     content:
       'initial-scale=1, maximum-scale=1, viewport-fit=cover, user-scalable=no'
   });
+
+  head.link.push({
+    rel: 'stylesheet',
+    href: 'https://fonts.googleapis.com/css?family=Lato:300,400'
+  });
 }
