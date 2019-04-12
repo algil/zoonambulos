@@ -9,5 +9,12 @@ module.exports = {
   siteDescription: 'Sitio web oficial',
   siteUrl: 'zoonambulos.com',
   titleTemplate: '%s',
-  plugins: []
+  plugins: [
+    {
+      use: '@gridsome/plugin-google-analytics',
+      options: {
+        id: 'UA-71853297-1'
+      }
+    }
+  ]
 };
